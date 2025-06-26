@@ -2,10 +2,9 @@
   "$schema": "https://railway.com/railway.schema.json",
   "rootDirectory": "backend",
   "build": {
-    "buildCommand": "echo 'Using nixpacks with .nixpacks.toml'"
+    "buildCommand": "npm install"
   },
   "deploy": {
-    "runtime": "V2",
     "numReplicas": 1,
     "startCommand": "node server.js",
     "sleepApplication": false,
